@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1553673358 source:e:\programming\resource manager\main.cpp
+	<cstdio>
+	<string>
+	"include/Centralized_resource_manager.h"
+
+1553673448 e:\programming\resource manager\include\resource_manager.h
+	<unordered_map>
+	<string>
+
+1553672468 e:\programming\resource manager\include\centralized_resource_manager.h
+	"Resource_manager.h"
+	<memory>
+	<vector>
+
