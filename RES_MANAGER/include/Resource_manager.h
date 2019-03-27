@@ -62,12 +62,7 @@ namespace RES_MANAGER
       if(i==resources.end())
          return;
 
-      printf("Destroy: %s times loaded %d\n",i->first.c_str(),times_loaded[i->first]);
-
       times_loaded[i->first]--;
-
-
-      printf("--Destroy: %s times loaded %d\n",i->first.c_str(),times_loaded[i->first]);
       if(times_loaded[i->first]==0)
          {
           clear_function(res);

@@ -52,7 +52,7 @@ namespace MUS
     }
 }
 
-#include "include/Centralized_resource_manager.h"
+#include "RES_MANAGER/Resource_manager.h"
 
 int main()
 {
