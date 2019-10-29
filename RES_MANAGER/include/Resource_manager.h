@@ -1,19 +1,12 @@
 #ifndef RESOURCE_MANAGER_H
 #define RESOURCE_MANAGER_H
 
+#include "Resource_type_counter.h"
 #include <unordered_map>
 #include <string>
 
 namespace RES_MANAGER
 {
-    class Resource_type_counter
-    {
-     public:
-     static int type_counter;
-    };
-
-    int Resource_type_counter::type_counter=0;
-
     class Base_resource_manager
     {
      public:
