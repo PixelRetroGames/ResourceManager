@@ -16,6 +16,8 @@ namespace RES_MANAGER
 
     class Base_resource_manager
     {
+     public:
+     virtual void Clear()=0;
     };
 
     template<typename Resource_type>
@@ -27,7 +29,11 @@ namespace RES_MANAGER
      Resource_type* (*load_function)(std::string path);
      void (*clear_function)(Resource_type*);
 
-
+     void Load(std::string path)
+     {
+      resources[path]=(*load_function)(path);
+      times_loaded[path]=0;
+     }
 
      public:
      void Set(Resource_type* (*_load_function)(std::string path),void (*_clear_function)(Resource_type*))
@@ -44,12 +50,6 @@ namespace RES_MANAGER
          Load(path);
       times_loaded[path]++;
       return resources[path];
-     }
-
-     void Load(std::string path)
-     {
-      resources[path]=(*load_function)(path);
-      times_loaded[path]=0;
      }
 
      void Destroy(Resource_type *&res)

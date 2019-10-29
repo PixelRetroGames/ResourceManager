@@ -68,14 +68,15 @@ int main()
 
  sq.Destroy(unu);
  unu=NULL;
- unu=sq.Get<IMG::Image>("prrrprr");
- sq.Destroy(unu);
- sq.Destroy(doi);
+ unu=sq.Get<IMG::Image>("ttt");
+ sq.Clear_all();
+ //sq.Destroy(unu);
+ //sq.Destroy(doi);
 
- sq.Destroy(song);
+ //sq.Destroy(song);
 
- sq.Clear<IMG::Image>();
- sq.Clear<MUS::Music>();
+ //sq.Clear<IMG::Image>();
+ //sq.Clear<MUS::Music>();
 
  printf("Finished!\n");
  return 0;

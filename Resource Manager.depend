@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1553673830 source:e:\programming\resource manager\main.cpp
+1572349135 source:e:\programming\resource manager\main.cpp
 	<cstdio>
 	<string>
 	"RES_MANAGER/Resource_manager.h"
@@ -16,12 +16,12 @@
 1553673814 e:\programming\resource manager\res_manager\resource_manager.h
 	"include/Centralized_resource_manager.h"
 
-1553672468 e:\programming\resource manager\res_manager\include\centralized_resource_manager.h
+1572349019 e:\programming\resource manager\res_manager\include\centralized_resource_manager.h
 	"Resource_manager.h"
 	<memory>
-	<vector>
+	<map>
 
-1553673853 e:\programming\resource manager\res_manager\include\resource_manager.h
+1572348532 e:\programming\resource manager\res_manager\include\resource_manager.h
 	<unordered_map>
 	<string>
 

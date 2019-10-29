@@ -31,8 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="include/Centralized_resource_manager.h" />
-		<Unit filename="include/Resource_manager.h" />
+		<Unit filename="RES_MANAGER/Resource_manager.h" />
+		<Unit filename="RES_MANAGER/include/Centralized_resource_manager.h" />
+		<Unit filename="RES_MANAGER/include/Resource_manager.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
